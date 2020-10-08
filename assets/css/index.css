@@ -25,16 +25,17 @@ a {
   transition: none !important;
 }
 
-.userinfo {
+.layui-side-scroll .userinfo {
   height: 60px;
-  line-height: 60px;
   text-align: center;
+  line-height: 60px;
   font-size: 12px;
+  border-bottom: 1px solid #000;
   user-select: none;
 }
 
-.layui-side-scroll .userinfo {
-  border-bottom: 1px solid #282b33;
+.layui-side-scroll {
+  width: 200px;
 }
 
 .layui-nav-img {
@@ -42,17 +43,17 @@ a {
   height: 40px;
 }
 
-.text-avatar {
+.user-avatar {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-color: #009688;
   border-radius: 50%;
+  background-color: #009688;
   line-height: 40px;
-  text-align: center;
   font-size: 20px;
-  color: #fff;
-  position: relative;
-  top: 4px;
+  vertical-align: middle;
+  text-align: center;
   margin-right: 10px;
+  color: #fff;
+
 }
